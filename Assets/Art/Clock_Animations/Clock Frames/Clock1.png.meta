@@ -1,7 +1,10 @@
 fileFormatVersion: 2
-guid: 0b1ba1462b660f9489163d5d0b9980e0
+guid: b3d6cf247f5045e47a3eb2785b2c62f5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6569732346006771694
+    second: Clock1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -34,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -53,7 +56,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -72,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,18 +96,48 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
+    sprites:
+    - serializedVersion: 2
+      name: Clock1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2186fde3d3f93d4a0800000000000000
+      internalID: -6569732346006771694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -145, y: -87}
+      - {x: -98, y: -145}
+      - {x: 86, y: -145}
+      - {x: 145, y: -108}
+      - {x: 145, y: 103}
+      - {x: 125, y: 145}
+      - {x: -81, y: 145}
+      - {x: -145, y: 83}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clock1_0: -6569732346006771694
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
