@@ -4,9 +4,7 @@ using UnityEngine;
 public class selectIngridient : MonoBehaviour
 {
     public string name;
-    private Material selfMaterials;
     public Material _material;
-    public Material OutlineMaterial;
     private SpriteRenderer spriteRenderer;
     public List<string> ingridients; 
     
@@ -19,9 +17,9 @@ public class selectIngridient : MonoBehaviour
 
         ingridients = GameObject.Find("SelectControler").GetComponent<selectcontroler>().ingridients;
         
-        selfMaterials = new Material(spriteRenderer.material);
+        _material = new Material(spriteRenderer.material);
 
-        spriteRenderer.material = selfMaterials;
+        spriteRenderer.material = _material;
 
         name = gameObject.name;
     }
@@ -35,8 +33,8 @@ public class selectIngridient : MonoBehaviour
                 selekted = true;
                 selectcontroler.selectConter++;
                 ingridients.Add(name);
-
-                selfMaterials = _material;
+                
+                _material.SetFloat("_OutlineOn", 1f);
                 
                 print(name+"selected");
             }
@@ -48,7 +46,7 @@ public class selectIngridient : MonoBehaviour
             selectcontroler.selectConter--;
             ingridients.Remove(name);
             
-            selfMaterials = _material;
+            _material.SetFloat("_OutlineOn", 0f);
             
             print(name+"Unselected");
         }
