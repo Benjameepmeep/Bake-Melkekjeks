@@ -1,23 +1,20 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net.Mime;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.SceneManagement;
 
 public class ScoreDisplay : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        //if (Score >= 30)
-        {
-            
-        }
+        SceneManager.LoadSceneAsync("ScoreScene", LoadSceneMode.Additive);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void QuitGame()
     {
-        
+        Application.Quit();
     }
 }
