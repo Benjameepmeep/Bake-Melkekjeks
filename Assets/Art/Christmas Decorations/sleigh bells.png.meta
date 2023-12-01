@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sleigh bells_0: -2417441327760041186
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

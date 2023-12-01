@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      002-alchemy-preview_0: 6229004569982343171
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
