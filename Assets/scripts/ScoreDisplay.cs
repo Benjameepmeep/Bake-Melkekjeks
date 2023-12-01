@@ -9,7 +9,7 @@ public class ScoreDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Score >= 30)
+        //if (Score >= 30)
         {
             
         }
